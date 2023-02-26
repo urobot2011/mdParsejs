@@ -1,12 +1,12 @@
 (function(){
   function parse(md){
-    /*md = md.replace(/^\s*\n\*/gm, '<ul>\n*');
-    md = md.replace(/^(\*.+)\s*\n([^\*])/gm, '$1\n</ul>\n\n$2');
-    md = md.replace(/^\*(.+)/gm, '<li>$1</li>');
-    md = md.replace(/^\s*\n\d\./gm, '<ol>\n1.');
-    md = md.replace(/^(\d\..+)\s*\n([^\d\.])/gm, '$1\n</ol>\n\n$2');
-    md = md.replace(/^\d\.(.+)/gm, '<li>$1</li>');
-    md = md.replace(/^\>(.+)/gm, '<blockquote>$1</blockquote>');*/
+    //md = md.replace(/^\s*\n\*/gm, '<ul>\n*');
+    //md = md.replace(/^(\*.+)\s*\n([^\*])/gm, '$1\n</ul>\n\n$2');
+    //md = md.replace(/^\*(.+)/gm, '<li>$1</li>');
+    //md = md.replace(/^\s*\n\d\./gm, '<ol>\n1.');
+    //md = md.replace(/^(\d\..+)\s*\n([^\d\.])/gm, '$1\n</ol>\n\n$2');
+    //md = md.replace(/^\d\.(.+)/gm, '<li>$1</li>');
+    //md = md.replace(/^\>(.+)/gm, '<blockquote>$1</blockquote>');
     md = md.replace(/[\&]{1}(.+)/g, '<p>$1</p>');
     md = md.replace(/[\#]{6}(.+)/g, '<h6>$1</h6>');
     md = md.replace(/[\#]{5}(.+)/g, '<h5>$1</h5>');
