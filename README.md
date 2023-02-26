@@ -1,7 +1,7 @@
 # mdParsejs
 ## Projects where this library is used:
- - [https://github.com/Seoha101109/test](Seoha101109/test)
- - - [https://seoha101109.github.io/test/index.html](Seoha101109/test?EX)
+ - [Seoha101109/test](https://github.com/Seoha101109/test)
+ - - [Seoha101109/test - EX](https://seoha101109.github.io/test/index.html)
 ## EX
 ```html
 <md>
